@@ -105,6 +105,9 @@ body {
     }
 
     .rodape {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
         padding: 24px;
         color:var(--cor-primaria);
         background-color: var(--cor-terciaria);
