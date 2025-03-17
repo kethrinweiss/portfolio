@@ -329,11 +329,24 @@ body {
     .galeria__imagens {
         width: 100%;
         grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+        
     }
 
     .galeria__imagens__item {
-        width: 12rem;
-        height: 10rem;
+        width: 7rem;
+        height: 5rem;
+    }
+
+    .galeria__imagens__item__descricao {
+        font-size: 8px;
+    }
+    
+    .galeria__imagens__item__instituicao {
+        font-size: 6px;
+    }
+
+    .galeria__imagens__item__ancora {
+        font-size: 6px;
     }
 
 }
